@@ -15,17 +15,25 @@
     </header>
     <section class="container">
         <section id="questionContainer" style= visibility:hidden;>
-            <section> 
-                <h1>Time Left</h1>
-                <p id="timer" class="timerView"></p>
-                <section id="question" class="styleQuestion"></section>
-                    <section id="answerBtns">
-                    </section>
-            </section>        
-        </section>
-        
+            <h1>Time Left</h1>
+            <p id="timer" class="timerView"></p>
+            <section id="question" class="styleQuestion"></section>
+                <section id="answerBtns" ></section>
+        </section>                   
     </section>
+    
+    <form id="highscoreForm" class= 'form' style="visibility: hidden;">
+        <h2>Submit your score here!</h2>
+        <label>Intials:</label>
+        <input type="text" id="initials"><br>
+        <input id='submit' type="submit" value="Submit">
+    </form>
 
+    <section id='Highscores' style="visibility: hidden;">
+        <h3>Your Highscores!</h3>
+    </section>
+        
     <script src="./assets/script.js"></script>
+
 </body>
 </html>
